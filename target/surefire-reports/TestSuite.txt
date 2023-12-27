@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 108.889 s <<< FAILURE! - in TestSuite
+com.CCPAAutomation.tests.UIDownload.TC002_Guest_DownloadRequest  Time elapsed: 101.541 s  <<< FAILURE!
+java.lang.AssertionError: Test Fail: Test Fail-Guest Download failed Expected condition failed: waiting for com.CCPAAutomation.pages.Browseractions$1@d723d33 (tried for 25 second(s) with 2000 milliseconds interval)
+	at com.CCPAAutomation.tests.UIDownload.VPDDownload(UIDownload.java:39)
+
+com.CCPAAutomation.tests.UIDownload.TC001_Guest_DownloadRequest  Time elapsed: 101.543 s  <<< FAILURE!
+java.lang.AssertionError: Test Fail: Test Fail-Guest Download failed Expected condition failed: waiting for com.CCPAAutomation.pages.Browseractions$1@3fbb3620 (tried for 15 second(s) with 2000 milliseconds interval)
+	at com.CCPAAutomation.tests.UIDownload.VPDDownload(UIDownload.java:39)
+

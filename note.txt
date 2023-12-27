@@ -1,0 +1,20 @@
+List<WebElement> matchescount = driver.findElements(By.xpath("//div[contains(@class,'shrink')]//span//span//span"));
+ArrayList<Integer> numarray = new ArrayList<Integer>();
+for(WebElement ele: matchescount){
+String text = ele.getText().replace("(","").replace(")","");
+int num = Integer.ParseInt(text);
+numarray.add(num);
+System.out.println(num);
+}
+int totalmatches= numarray.get(0),sum=0;
+for(int i =1;i<numarray.size();i++)
+{
+sum= sum+numarray.get(i);
+}
+if(totalmatches == sum){
+Assert.assetTrue(true);
+}
+else{
+Assert.assertTrue(false);
+}
+

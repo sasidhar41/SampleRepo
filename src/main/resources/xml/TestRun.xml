@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite" parallel = "tests" thread-count="1">
+<listeners>
+<listener class-name="com.CCPAAutomation.utilities.Customlistener"/>
+</listeners>
+<test name ="CCPAUIDownload" parallel="instances" thread-count="3">
+<classes>
+<class name="com.CCPAAutomation.tests.UIDownload"/>
+</classes>
+</test>
+</suite>

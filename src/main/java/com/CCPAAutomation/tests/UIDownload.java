@@ -48,7 +48,7 @@ public class UIDownload extends Browseractions implements ITest{
     	}
     	finally {
     		CaptureScreenshot(driver,dataMap.get("TestCaseDescription"));
-    		driver.close();
+    		driver.quit();
     	}
     	
     }

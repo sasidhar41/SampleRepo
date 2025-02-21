@@ -44,7 +44,7 @@ public class UIDownload extends Browseractions implements ITest{
     	}
     	catch(Exception e) {
     		//logger.info("Test Fail: "+e.getMessage());
-    		Assert.fail("Test Fail: "+e.getMessage());
+    		Assert.fail("Test Fail: "+e.toString());
     	}
     	finally {
     		CaptureScreenshot(driver,dataMap.get("TestCaseDescription"));

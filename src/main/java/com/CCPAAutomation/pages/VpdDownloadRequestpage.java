@@ -43,4 +43,8 @@ public class VpdDownloadRequestpage extends Browseractions {
 		return ret;
 	}
 
+	
+	public static void getMethod() {
+		System.out.println("print method");
+	}
 }

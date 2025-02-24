@@ -54,7 +54,13 @@ public class VpdDownloadRequestpage extends Browseractions {
 	}
 	
 	
+
 	public void demoName() {
-		System.out.println("Sasidhar";)
+		System.out.println("Sasidhar");
+	}
+
+	public void  getname() {
+		System.out.println("akhila");
+
 	}
 }

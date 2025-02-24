@@ -47,4 +47,9 @@ public class VpdDownloadRequestpage extends Browseractions {
 	public static void getMethod() {
 		System.out.println("print method");
 	}
+	
+	
+	public void  getname() {
+		System.out.println("akhila");
+	}
 }
